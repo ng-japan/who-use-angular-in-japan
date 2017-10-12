@@ -3,7 +3,7 @@ The list of companies who use Angular/AngularJS in Japan
 
 ## Companies
 
-| Name | Version | What we do with  | Public URL |
+| Name | Version | What we do with Angular | Public URL |
 | ------------ | ------- | ------- | ------- |
 | [Example Company](http://example.com) | AngularJS, Angular | Internal CRM Console App |  |
 
