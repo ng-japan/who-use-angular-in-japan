@@ -11,6 +11,7 @@ The list of companies who use Angular/AngularJS in Japan
 | [Kaizen Platform](https://kaizenplatform.com/) | AngularJS/Angular | Growth hackers platform/Internal tools | https://app.kaizenplatform.net/ |
 | [bitbank, inc](https://bitbank.cc/) | Angular | Cryptocurrency Exchange Application. | https://bitbank.cc/ |
 | [B-eee Technology](http://www.b-eee.com/) | AngularJS, Angular | WebDB, CRM(SaaS, big data, realtime) | http://www.b-eee.com/ |
+| [WACUL INC.](https://wacul.co.jp) | Angular | Automatic proposal for improvement website.| https://wacul-ai.com |
 
 ## Add your company!
 
