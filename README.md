@@ -9,6 +9,7 @@ The list of companies who use Angular/AngularJS in Japan
 | [Alt&A Advisory](https://ra-ai.com/) | Angular | Improving the investment experience for everyone. | https://ra-ai.com/ |
 | [GNEX ltd.](https://globalnet-ex.com) | AngularJS, Angular | [Corporate website](https://globalnet-ex.com) with AngularJS. [Push7](https://push7.jp) (SaaS web push service) console with Angular. | https://dashboard.push7.jp |
 | [Kaizen Platform](https://kaizenplatform.com/) | AngularJS/Angular | Growth hackers platform/Internal tools | https://app.kaizenplatform.net/ |
+| [B-eee Technology](http://www.b-eee.com/) | AngularJS, Angular | WebDB, CRM(SaaS, big data, realtime) | http://www.b-eee.com/ |
 
 ## Add your company!
 
