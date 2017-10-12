@@ -7,6 +7,7 @@ The list of companies who use Angular/AngularJS in Japan
 | ------------ | ------- | ------- | ------- |
 | [Example Company](http://example.com) | AngularJS, Angular | Internal CRM Console App |  |
 | [Alt&A Advisory](https://ra-ai.com/) | Angular | Improving the investment experience for everyone. | https://ra-ai.com/ |
+| [bitbank, inc](https://bitbank.cc/) | Angular | Cryptocurrency Exchange Application. | https://bitbank.cc/ |
 
 ## Add your company!
 
