@@ -7,7 +7,7 @@ The list of companies who use Angular/AngularJS in Japan
 | ------------ | ------- | ------- | ------- |
 | [Example Company](http://example.com) | AngularJS, Angular | Internal CRM Console App |  |
 | [Alt&A Advisory](https://ra-ai.com/) | Angular | Improving the investment experience for everyone. | https://ra-ai.com/ |
-| [Kaizen Platform](https://kaizenplatform.com/) | AngularJS/Angular | Growth hackers platform　/　Internal tools | https://app.kaizenplatform.net/ |
+| [Kaizen Platform](https://kaizenplatform.com/) | AngularJS/Angular | Growth hackers platform/Internal tools | https://app.kaizenplatform.net/ |
 
 ## Add your company!
 
