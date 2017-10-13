@@ -13,6 +13,7 @@ The list of companies who use Angular/AngularJS in Japan
 | [B-eee Technology](http://www.b-eee.com/) | AngularJS, Angular | WebDB, CRM(SaaS, big data, realtime) | http://www.b-eee.com/ |
 | [WACUL INC.](https://wacul.co.jp) | Angular | Automatic proposal for improvement website.| https://wacul-ai.com |
 | [Bizreach, Inc.](http://www.bizreach.co.jp/) | AngularJS, Angular | HRMOS: Human Resources operations platform. | https://hrmos.co/saiyo/ |
+| [Vivivit, Inc.](https://vivivit.co.jp/) | AngularJS, Angular | Recruiting platform for finding creator by their works | https://www.vivivit.com |
 
 ## Add your company!
 
