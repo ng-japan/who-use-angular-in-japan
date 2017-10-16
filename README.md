@@ -15,6 +15,7 @@ The list of companies who use Angular/AngularJS in Japan
 | [Bizreach, Inc.](http://www.bizreach.co.jp/) | AngularJS, Angular | HRMOS: Human Resources operations platform. | https://hrmos.co/saiyo/ |
 | [Vivivit, Inc.](https://vivivit.co.jp/) | AngularJS, Angular | Recruiting platform for finding creator by their works | https://www.vivivit.com |
 | [Hematite LLC](https://fe2o3.jp/) | Angular | All in one package for CTF | https://ctfkit.com |
+| [Open Web Technology](http://openweb.co.jp/) | Angular(Ionic) | TechFeed: Technology news curation service | https://techfeed.io |
 
 ## Add your company!
 
