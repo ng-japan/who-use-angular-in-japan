@@ -16,6 +16,7 @@ The list of companies who use Angular/AngularJS in Japan
 | [Vivivit, Inc.](https://vivivit.co.jp/) | AngularJS, Angular | Recruiting platform for finding creator by their works | https://www.vivivit.com |
 | [Hematite LLC](https://fe2o3.jp/) | Angular | All in one package for CTF | https://ctfkit.com |
 | [Open Web Technology](http://openweb.co.jp/) | Angular(Ionic) | TechFeed: Technology news curation service | https://techfeed.io |
+| [SQUEEZE Inc.](https://squeeze-inc.co.jp/) | AngularJS, Angular | Powerful tool for managing multiple vacation rental accounts | https://suitebook.io/ |
 
 ## Add your company!
 
