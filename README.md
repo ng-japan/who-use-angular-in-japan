@@ -18,6 +18,7 @@ The list of companies who use Angular/AngularJS in Japan
 | [Open Web Technology](http://openweb.co.jp/) | Angular(Ionic) | TechFeed: Technology news curation service | https://techfeed.io |
 | [SQUEEZE Inc.](https://squeeze-inc.co.jp/) | AngularJS, Angular | Powerful tool for managing multiple vacation rental accounts | https://suitebook.io/ |
 | [RESCHO, Inc.](https://www.rescho.co.jp/) | AngularJS, Angular | Waroku: Electronic health record for psychiatry | https://clinic.waroku.net/ |
+| [Classi Corp.](https://classi.jp/) | AngularJS, Angular | The tool assists teaching and learning for schools. | |
 | [Kurashicom Inc.](https://kurashicom.jp/) | AngularJS, Angular | Internal e-commerce console app | https://hokuohkurashi.com/ |
 
 ## Add your company!
