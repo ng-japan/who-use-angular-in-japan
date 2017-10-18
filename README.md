@@ -20,6 +20,7 @@ The list of companies who use Angular/AngularJS in Japan
 | [RESCHO, Inc.](https://www.rescho.co.jp/) | AngularJS, Angular | Waroku: Electronic health record for psychiatry | https://clinic.waroku.net/ |
 | [Classi Corp.](https://classi.jp/) | AngularJS, Angular | The tool assists teaching and learning for schools. | |
 | [Kurashicom Inc.](https://kurashicom.jp/) | AngularJS, Angular | Internal e-commerce console app | https://hokuohkurashi.com/ |
+| [Kabuku Inc.](https://www.kabuku.co.jp/) | AngularJS, Angular | Digital Manufacturing Service | https://connect.kabuku.io/pro/project/request  https://demo.3dprinting-mms.com/app#/ |
 
 ## Add your company!
 
