@@ -20,6 +20,7 @@ The list of companies who use Angular/AngularJS in Japan
 | [Classi Corp.](https://classi.jp/) | AngularJS, Angular | The tool assists teaching and learning for schools. | |
 | [Kurashicom Inc.](https://kurashicom.jp/) | AngularJS, Angular | Internal e-commerce console app | https://hokuohkurashi.com/ |
 | [Kabuku Inc.](https://www.kabuku.co.jp/) | AngularJS, Angular | Digital Manufacturing Service | https://connect.kabuku.io/pro/project/request  https://demo.3dprinting-mms.com/app#/ |
+| [Benesse i-Career Co., Ltd.](https://www.benesse-i-career.co.jp/) | Angular | DODA Campus: Direct recruiting and educational  service for college students. | https://campus.doda.jp |
 
 ## Add your company!
 
