@@ -22,7 +22,6 @@ The list of companies who use Angular/AngularJS in Japan
 | [Kabuku Inc.](https://www.kabuku.co.jp/) | AngularJS, Angular | Digital Manufacturing Service | https://connect.kabuku.io/pro/project/request  https://demo.3dprinting-mms.com/app#/ |
 | [Benesse i-Career Co., Ltd.](https://www.benesse-i-career.co.jp/) | Angular | DODA Campus: Direct recruiting and educational  service for college students. | https://campus.doda.jp |
 | [e-reverse.com, Inc.](https://www.e-reverse.com/) | Angular | Electronic manifest management system for construction industry.| https://www.e-reverse.com/ |
-
 | [Ashiras, inc](https://ashiras.xyz/) | AngularJS, Angular | Building an Enterprise Web Application using Angular, AngularJS.| https://ashiras.xyz/ |
 
 ## Add your company!
