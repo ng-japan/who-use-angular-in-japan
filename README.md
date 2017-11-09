@@ -24,6 +24,7 @@ The list of companies who use Angular/AngularJS in Japan
 | [e-reverse.com, Inc.](https://www.e-reverse.com/) | Angular | Electronic manifest management system for construction industry.| https://www.e-reverse.com/ |
 | [Ashiras, inc](https://ashiras.xyz/) | AngularJS, Angular | Building an Enterprise Web Application using Angular, AngularJS.| https://ashiras.xyz/ |
 | [KAKEHASHI Inc.](https://kakehashi.life/) | Angular | Musubi: Electronic Counseling Record Application.|  |
+| [OPT, Inc.](http://www.opt.ne.jp/opttechnologies/) | AngularJS, Angular | Advertising efficiency measurement services, Marketing management applications.| http://www.opt.ne.jp/opttechnologies/index.html#product |
 
 ## Add your company!
 
