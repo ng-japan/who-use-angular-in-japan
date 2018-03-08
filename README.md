@@ -27,6 +27,7 @@ The list of companies who use Angular/AngularJS in Japan
 | [OPT, Inc.](http://www.opt.ne.jp/opttechnologies/) | AngularJS, Angular | Advertising efficiency measurement services, Marketing management applications.| http://www.opt.ne.jp/opttechnologies/index.html#product |
 | [AWA Co. Ltd.](https://awa.fm/) | Angular | Account management site for AWA. | https://account.awa.fm/ |
 | [Infragistics Japan Co., Ltd.](https://jp.infragistics.com/) | Angular | Ignite UI for Angular : 30+ Material-based Angular components. Free for non-commercial use.  | https://jp.infragistics.com/products/ignite-ui-angular https://github.com/IgniteUI/igniteui-angular |
+| [HANDS LAB INC.](https://www.hands-lab.com/) | Angular | Image sharing and communication service for retailers. | https://post-for.com/ |
 
 ## Add your company!
 
