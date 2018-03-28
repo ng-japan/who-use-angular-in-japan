@@ -29,6 +29,7 @@ The list of companies who use Angular/AngularJS in Japan
 | [Infragistics Japan Co., Ltd.](https://jp.infragistics.com/) | Angular | Ignite UI for Angular : 30+ Material-based Angular components. Free for non-commercial use.  | https://jp.infragistics.com/products/ignite-ui-angular https://github.com/IgniteUI/igniteui-angular |
 | [HANDS LAB INC.](https://www.hands-lab.com/) | Angular | Image sharing and communication service for retailers. | https://post-for.com/ |
 | [Emotion Tech Inc.](https://www.emotion-tech.co.jp/) | AngularJS, Angular | We provide a cloud-based Customer Experience Management solution that helps our clients to increase customer loyalty. | https://www.emotion-tech.co.jp/ |
+| [Stylez Corp.](https://www.stylez.co.jp/) | AngularJS, Angular | Flex to HTML5/Angular convert service. | https://www.stylez.co.jp/ |
 
 ## Add your company!
 
