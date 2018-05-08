@@ -30,6 +30,7 @@ The list of companies who use Angular/AngularJS in Japan
 | [HANDS LAB INC.](https://www.hands-lab.com/) | Angular | Image sharing and communication service for retailers. | https://post-for.com/ |
 | [Emotion Tech Inc.](https://www.emotion-tech.co.jp/) | AngularJS, Angular | We provide a cloud-based Customer Experience Management solution that helps our clients to increase customer loyalty. | https://www.emotion-tech.co.jp/ |
 | [Stylez Corp.](https://www.stylez.co.jp/) | AngularJS, Angular | Flex to HTML5/Angular convert service. | https://www.stylez.co.jp/ |
+| [Relation Design Labo, General Inc.Association](https://rdlabo.jp/) | Ionic Framework | Application developer and adviser | https://rdlabo.jp/ |
 
 ## Add your company!
 
