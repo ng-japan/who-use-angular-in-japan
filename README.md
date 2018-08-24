@@ -34,6 +34,7 @@ The list of companies who use Angular/AngularJS in Japan
 | [SEROKU](https://seroku.jp/) | Angular | A new auction platform where freelance engineers can sell their skills/experience and companies directly employ them. | https://seroku.jp/ |
 | [Business Bank Group](https://bbank.jp/) | AngularJS, Angular | To upgrade business management. We are serving a SaaS which integrate CRM, SFA, HR, ERP, Groupware, etc. | https://web.all-in.xyz/ |
 | [TOPGATE, Inc.](https://www.topgate.co.jp/) | AngularJS, Angular | Developing web applications and services. | |
+| [oRo Co., Ltd.](https://www.oro.com/ja/) | AngularJS, Angular | The definitive cloud ERP made for project based businesses. | https://www.oro.com/zac/ |
 
 ## Add your company!
 
