@@ -3,7 +3,13 @@
     <div class="mat-caption">#{{ index }}</div>
     <div class="mat-subtitle">{{ organization.name }}</div>
   </mat-card-title>
-  <mat-card-content>{{ organization.description }}</mat-card-content>
+  <mat-card-content fxLayout="column" fxLayoutGap="16px">
+    <div class="mat-body-1">{{ organization.description }}</div>
+    <div fxLayout="row" fxLayoutGap="8px" fxLayooutAlign="start center">
+      <img *ngIf="organization.ngVersions.angularjs" class="angularIcon" src="/assets/image/angularjs.svg">
+      <img *ngIf="organization.ngVersions.angular" class="angularIcon" src="/assets/image/angular.svg">
+    </div>
+  </mat-card-content>
   <mat-card-actions>
     <a mat-button color="primary" [href]="organization.websiteUrl" target="_blank">Webサイト</a>
   </mat-card-actions>

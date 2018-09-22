@@ -4,4 +4,8 @@ export interface Organization {
   websiteUrl: string;
   description: string;
   logoUrl?: string;
+  ngVersions: {
+    angularjs?: boolean;
+    angular?: boolean;
+  };
 }

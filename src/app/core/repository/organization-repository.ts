@@ -13,7 +13,11 @@ export class OrganizationRepository {
         name: company.companyName(),
         websiteUrl: 'http://example.com',
         description: lorem.paragraph(),
-        logoUrl: image.avatar()
+        logoUrl: image.avatar(),
+        ngVersions: {
+          angularjs: true,
+          angular: true
+        }
       };
     });
   }
