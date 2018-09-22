@@ -3,7 +3,7 @@
 </header>
 
 <ul>
-  <li *ngFor="let org of organizations">
+  <li *ngFor="let org of organizations$ | async">
     <div>
       <img *ngIf="org.logoUrl" src="{{ org.logoUrl }}">
       <div>{{ org.name }}</div>

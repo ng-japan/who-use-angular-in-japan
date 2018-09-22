@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Organization } from './core/model/organization';
-import { OrganizationRepository } from './core/repository/organization-repository';
+import { OrganizationService } from './service/organization.service';
 
 @Component({
   selector: 'app-root',
@@ -8,13 +7,11 @@ import { OrganizationRepository } from './core/repository/organization-repositor
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  organizations: Organization[] = [];
+  organizations$ = this.organizationService.allOrganization$;
 
-  constructor(private organizationRepository: OrganizationRepository) {}
+  constructor(private organizationService: OrganizationService) {}
 
-  async ngOnInit() {
-    const organizations = await this.organizationRepository.getAllCompanies();
-
-    this.organizations = organizations;
+  ngOnInit() {
+    this.organizationService.fetchAllOrganizations();
   }
 }
