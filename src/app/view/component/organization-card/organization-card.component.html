@@ -11,6 +11,7 @@
     </div>
   </mat-card-content>
   <mat-card-actions>
-    <a mat-button color="primary" [href]="organization.websiteUrl" target="_blank">Webサイト</a>
+    <a mat-button color="primary" [href]="organization.websiteUrl" target="_blank">Webページ</a>
+    <a *ngIf="organization.productUrl" mat-button color="primary" [href]="organization.productUrl" target="_blank">プロダクトページ</a>
   </mat-card-actions>
 </mat-card>
