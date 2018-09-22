@@ -7,5 +7,5 @@ body {
 }
 body {
   margin: 0;
-  background-color: map-get($mat-light-theme-background, background);
+  background-color: map-get($mat-light-theme-background, 'background');
 }

@@ -1,0 +1,15 @@
+@import '../../../../styles/theme';
+
+:host {
+  display: block;
+}
+
+footer {
+  color: mat-contrast($app-primary, 500);
+  background: map-get($mat-dark-theme-background, 'background');
+  padding: 32px 0;
+}
+
+a {
+  color: mat-contrast($app-primary, 500);
+}

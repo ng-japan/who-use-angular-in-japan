@@ -7,13 +7,15 @@ import { OrganizationCardComponent } from './view/component/organization-card/or
 import { MaterialModule } from './config/material.module';
 import { HeaderComponent } from './view/component/header/header.component';
 import { OrganizationListComponent } from './view/component/organization-list/organization-list.component';
+import { FooterComponent } from './view/component/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OrganizationCardComponent,
     HeaderComponent,
-    OrganizationListComponent
+    OrganizationListComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
