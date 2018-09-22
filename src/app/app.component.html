@@ -1,5 +1,5 @@
 <app-header></app-header>
 
-<app-organization-list [organizations]="organizations$ | async"></app-organization-list>
+<app-organization-list [organizations]="organizations$ | async" [fetching]="fetching$ | async"></app-organization-list>
 
 <app-footer></app-footer>

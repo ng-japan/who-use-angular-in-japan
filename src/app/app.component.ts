@@ -7,7 +7,8 @@ import { OrganizationService } from './service/organization.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  organizations$ = this.organizationService.allOrganization$;
+  organizations$ = this.organizationService.allOrganizations$;
+  fetching$ = this.organizationService.fetching$;
 
   constructor(private organizationService: OrganizationService) {}
 

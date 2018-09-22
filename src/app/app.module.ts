@@ -1,13 +1,16 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
-import { OrganizationCardComponent } from './view/component/organization-card/organization-card.component';
 import { MaterialModule } from './config/material.module';
-import { HeaderComponent } from './view/component/header/header.component';
-import { OrganizationListComponent } from './view/component/organization-list/organization-list.component';
 import { FooterComponent } from './view/component/footer/footer.component';
+import { HeaderComponent } from './view/component/header/header.component';
+import { OrganizationCardComponent } from './view/component/organization-card/organization-card.component';
+import { OrganizationListComponent } from './view/component/organization-list/organization-list.component';
+import { SafeHtmlPipe } from './view/pipe/safe-html.pipe';
+import { ToHtmlPipe } from './view/pipe/to-html.pipe';
 
 @NgModule({
   declarations: [
@@ -15,13 +18,16 @@ import { FooterComponent } from './view/component/footer/footer.component';
     OrganizationCardComponent,
     HeaderComponent,
     OrganizationListComponent,
-    FooterComponent
+    FooterComponent,
+    ToHtmlPipe,
+    SafeHtmlPipe
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
-    MaterialModule
+    MaterialModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

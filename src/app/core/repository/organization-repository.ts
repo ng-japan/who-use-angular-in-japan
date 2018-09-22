@@ -1,24 +1,22 @@
 import { Injectable } from '@angular/core';
+import { map, delay } from 'rxjs/operators';
 
-import { company, lorem, image } from 'faker';
 import { Organization } from '../model/organization';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
 })
 export class OrganizationRepository {
+  constructor(private httpClient: HttpClient) {}
+
   async getAllCompanies(): Promise<Organization[]> {
-    return await new Array(10).fill(null).map(() => {
-      return {
-        name: company.companyName(),
-        websiteUrl: 'http://example.com',
-        description: lorem.paragraph(),
-        productUrl: 'http://example.com',
-        ngVersions: {
-          angularjs: true,
-          angular: true
-        }
-      };
-    });
+    return await this.httpClient
+      .get<{ data: Organization[] }>('/data/organizations.json')
+      .pipe(
+        map(resp => resp.data),
+        delay(2000)
+      )
+      .toPromise();
   }
 }

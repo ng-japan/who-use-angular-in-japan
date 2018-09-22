@@ -1,0 +1,305 @@
+{
+  "data": [
+    {
+      "name": "Alt&A Advisory",
+      "websiteUrl": "https://ra-ai.com/",
+      "description": "Improving the investment experience for everyone.",
+      "publicUrl": "https://ra-ai.com/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": false
+      }
+    },
+    {
+      "name": "GNEX ltd.",
+      "websiteUrl": "https://globalnet-ex.com",
+      "description": "[Corporate website](https://globalnet-ex.com) with AngularJS. [Push7](https://push7.jp) (SaaS web push service) console with Angular.",
+      "publicUrl": "https://dashboard.push7.jp",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": true
+      }
+    },
+    {
+      "name": "Kaizen Platform",
+      "websiteUrl": "https://kaizenplatform.com/",
+      "description": "Growth hackers platform/Internal tools",
+      "publicUrl": "https://app.kaizenplatform.net/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": true
+      }
+    },
+    {
+      "name": "bitbank, inc",
+      "websiteUrl": "https://bitbank.cc/",
+      "description": "Cryptocurrency Exchange Application.",
+      "publicUrl": "https://bitbank.cc/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": false
+      }
+    },
+    {
+      "name": "B-eee Technology",
+      "websiteUrl": "http://www.b-eee.com/",
+      "description": "WebDB, CRM(SaaS, big data, realtime)",
+      "publicUrl": "http://www.b-eee.com/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": true
+      }
+    },
+    {
+      "name": "WACUL INC.",
+      "websiteUrl": "https://wacul.co.jp",
+      "description": "Automatic proposal for improvement website.",
+      "publicUrl": "https://wacul-ai.com",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": false
+      }
+    },
+    {
+      "name": "BizReach, Inc.",
+      "websiteUrl": "http://www.bizreach.co.jp/",
+      "description": "BIZREACH: Executive job site that brings together high-caliber <br> HRMOS: Human resource management system",
+      "publicUrl": "https://www.bizreach.jp/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": true
+      }
+    },
+    {
+      "name": "Vivivit, Inc.",
+      "websiteUrl": "https://vivivit.co.jp",
+      "description": "Recruiting platform for finding creator by their works",
+      "publicUrl": "https://www.vivivit.com",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": true
+      }
+    },
+    {
+      "name": "Hematite LLC",
+      "websiteUrl": "https://fe2o3.jp/",
+      "description": "All in one package for CTF",
+      "publicUrl": "https://ctfkit.com",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": false
+      }
+    },
+    {
+      "name": "Open Web Technology",
+      "websiteUrl": "http://openweb.co.jp/",
+      "description": "TechFeed: Technology news curation service",
+      "publicUrl": "https://techfeed.io",
+      "ngVersions": {
+        "angular": true,
+        "ionic": true
+      }
+    },
+    {
+      "name": "SQUEEZE Inc.",
+      "websiteUrl": "https://squeeze-inc.co.jp/",
+      "description": "Powerful tool for managing multiple vacation rental accounts",
+      "publicUrl": "https://suitebook.io/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": true
+      }
+    },
+    {
+      "name": "RESCHO, Inc.",
+      "websiteUrl": "https://www.rescho.co.jp/",
+      "description": "Waroku: Electronic health record for psychiatry",
+      "publicUrl": "https://clinic.waroku.net/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": true
+      }
+    },
+    {
+      "name": "Classi Corp.",
+      "websiteUrl": "https://classi.jp/",
+      "description": "The tool assists teaching and learning for schools.",
+      "publicUrl": "",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": true
+      }
+    },
+    {
+      "name": "Kurashicom Inc.",
+      "websiteUrl": "https://kurashicom.jp/",
+      "description": "Internal e-commerce console app",
+      "publicUrl": "https://hokuohkurashi.com/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": true
+      }
+    },
+    {
+      "name": "Kabuku Inc.",
+      "websiteUrl": "https://www.kabuku.co.jp/",
+      "description": "Digital Manufacturing Service https://connect.kabuku.io/pro/project/request",
+      "publicUrl": "https://demo.3dprinting-mms.com/app#/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": true
+      }
+    },
+    {
+      "name": "Benesse i-Career Co., Ltd.",
+      "websiteUrl": "https://www.benesse-i-career.co.jp/",
+      "description": "DODA Campus: Direct recruiting and educational  service for college students.",
+      "publicUrl": "https://campus.doda.jp",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": false
+      }
+    },
+    {
+      "name": "e-reverse.com, Inc.",
+      "websiteUrl": "https://www.e-reverse.com/",
+      "description": "Electronic manifest management system for construction industry.",
+      "publicUrl": "https://www.e-reverse.com/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": false
+      }
+    },
+    {
+      "name": "Ashiras, inc",
+      "websiteUrl": "https://ashiras.xyz/",
+      "description": "Building an Enterprise Web Application using Angular, AngularJS.",
+      "publicUrl": "https://ashiras.xyz/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": true
+      }
+    },
+    {
+      "name": "KAKEHASHI Inc.",
+      "websiteUrl": "https://kakehashi.life/",
+      "description": "Musubi: Electronic Counseling Record Application.",
+      "publicUrl": "",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": false
+      }
+    },
+    {
+      "name": "OPT, Inc.",
+      "websiteUrl": "http://www.opt.ne.jp/opttechnologies/",
+      "description": "Advertising efficiency measurement services, Marketing management applications.",
+      "publicUrl": "http://www.opt.ne.jp/opttechnologies/index.html#product",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": true
+      }
+    },
+    {
+      "name": "AWA Co. Ltd.",
+      "websiteUrl": "https://awa.fm/",
+      "description": "Account management site for AWA.",
+      "publicUrl": "https://account.awa.fm/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": false
+      }
+    },
+    {
+      "name": "Infragistics Japan Co., Ltd.",
+      "websiteUrl": "https://jp.infragistics.com/",
+      "description": "Ignite UI for Angular : 30+ Material-based Angular components. Free for non-commercial use.",
+      "publicUrl": "https://jp.infragistics.com/products/ignite-ui-angular https://github.com/IgniteUI/igniteui-angular",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": false
+      }
+    },
+    {
+      "name": "HANDS LAB INC.",
+      "websiteUrl": "https://www.hands-lab.com/",
+      "description": "Image sharing and communication service for retailers.",
+      "publicUrl": "https://post-for.com/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": false
+      }
+    },
+    {
+      "name": "Emotion Tech Inc.",
+      "websiteUrl": "https://www.emotion-tech.co.jp/",
+      "description": "We provide a cloud-based Customer Experience Management solution that helps our clients to increase customer loyalty.",
+      "publicUrl": "https://www.emotion-tech.co.jp/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": true
+      }
+    },
+    {
+      "name": "Stylez Corp.",
+      "websiteUrl": "https://www.stylez.co.jp/",
+      "description": "Flex to HTML5/Angular convert service.",
+      "publicUrl": "https://www.stylez.co.jp/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": true
+      }
+    },
+    {
+      "name": "Relation Design Labo, General Inc.Association",
+      "websiteUrl": "https://rdlabo.jp/",
+      "description": "Application developer and adviser",
+      "publicUrl": "https://rdlabo.jp/",
+      "ngVersions": {
+        "angularjs": false,
+        "angular": true,
+        "ionic": true
+      }
+    },
+    {
+      "name": "SEROKU",
+      "websiteUrl": "https://seroku.jp/",
+      "description": "A new auction platform where freelance engineers can sell their skills/experience and companies directly employ them.",
+      "publicUrl": "https://seroku.jp/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": false
+      }
+    },
+    {
+      "name": "Business Bank Group",
+      "websiteUrl": "https://bbank.jp/",
+      "description": "To upgrade business management. We are serving a SaaS which integrate CRM, SFA, HR, ERP, Groupware, etc.",
+      "publicUrl": "https://web.all-in.xyz/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": true
+      }
+    },
+    {
+      "name": "TOPGATE, Inc.",
+      "websiteUrl": "https://www.topgate.co.jp/",
+      "description": "Developing web applications and services.",
+      "publicUrl": "",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": true
+      }
+    },
+    {
+      "name": "oRo Co., Ltd.",
+      "websiteUrl": "https://www.oro.com/ja/",
+      "description": "The definitive cloud ERP made for project based businesses.",
+      "publicUrl": "https://www.oro.com/zac/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": true
+      }
+    }
+  ]
+}

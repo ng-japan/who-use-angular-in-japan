@@ -11,12 +11,22 @@ export class OrganizationService {
     private organizationRepository: OrganizationRepository
   ) {}
 
-  get allOrganization$() {
-    return this.organizationStore.allOrganizations$;
+  get allOrganizations$() {
+    return this.organizationStore.select(state => state.allOrganizations);
+  }
+
+  get fetching$() {
+    return this.organizationStore.select(state => state.fetching);
   }
 
   async fetchAllOrganizations() {
+    this.organizationStore.patchState({
+      fetching: true
+    });
     const organizations = await this.organizationRepository.getAllCompanies();
-    this.organizationStore.setOrganizations(organizations);
+    this.organizationStore.patchState({
+      fetching: false,
+      allOrganizations: organizations
+    });
   }
 }

@@ -10,4 +10,7 @@ import { Organization } from '../../../core/model/organization';
 export class OrganizationListComponent {
   @Input()
   organizations!: Organization[];
+
+  @Input()
+  fetching = false;
 }

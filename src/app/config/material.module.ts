@@ -2,10 +2,11 @@ import { NgModule } from '@angular/core';
 import {
   MatCardModule,
   MatButtonModule,
-  MatIconModule
+  MatIconModule,
+  MatProgressSpinnerModule
 } from '@angular/material';
 
-const modules = [MatCardModule, MatButtonModule, MatIconModule];
+const modules = [MatCardModule, MatButtonModule, MatIconModule, MatProgressSpinnerModule];
 
 @NgModule({
   imports: [...modules],
