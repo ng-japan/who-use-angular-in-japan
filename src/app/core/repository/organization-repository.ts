@@ -1,8 +1,8 @@
-import { Injectable } from '@angular/core';
-import { map, delay } from 'rxjs/operators';
-
-import { Organization } from '../model/organization';
 import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+import { map } from 'rxjs/operators';
+import { Organization } from '../model/organization';
+
 
 @Injectable({
   providedIn: 'root'
@@ -15,7 +15,6 @@ export class OrganizationRepository {
       .get<{ data: Organization[] }>('/data/organizations.json')
       .pipe(
         map(resp => resp.data),
-        delay(2000)
       )
       .toPromise();
   }
