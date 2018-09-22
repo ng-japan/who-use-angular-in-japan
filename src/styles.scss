@@ -1,4 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/theming';
 
-html, body { height: 100%; }
-body { margin: 0; font-family: 'Roboto', sans-serif; }
+$app-font-family: "'Montserrat', sans-serif";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: $app-font-family;
+  background-color: map-get($mat-light-theme-background, background);
+}
+
+$custom-typography: mat-typography-config(
+  $font-family: $app-font-family
+);
+
+@include mat-core($custom-typography);

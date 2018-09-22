@@ -1,0 +1,12 @@
+<div class="wrapper" fxLayout="column" fxLayoutAlign="center center">
+
+  <div class="list" fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutGap="16px" fxLayoutAlign="start stretch">
+    <ng-container *ngFor="let organnization of organizations; index as i">
+
+      <app-organization-card [organization]="organnization" [index]="i + 1" class="listItem" fxFlex="100%" fxFlex.gt-sm="0 1 calc(50% - 16px)"
+        fxFlex.gt-md="0 1 calc(33.3% - 16px)" fxFlex.gt-lg="0 1 calc(25% - 16px)"></app-organization-card>
+
+    </ng-container>
+  </div>
+
+</div>

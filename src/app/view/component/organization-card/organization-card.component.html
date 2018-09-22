@@ -1,0 +1,10 @@
+<mat-card>
+  <mat-card-title fxLayout="row" fxLayoutGap="8px" fxLayoutAlign="start start">
+    <div class="mat-caption">#{{ index }}</div>
+    <div class="mat-subtitle">{{ organization.name }}</div>
+  </mat-card-title>
+  <mat-card-content>{{ organization.description }}</mat-card-content>
+  <mat-card-actions>
+    <a mat-button color="primary" [href]="organization.websiteUrl" target="_blank">Webサイト</a>
+  </mat-card-actions>
+</mat-card>

@@ -1,13 +1,3 @@
-<header>
-  <h1>Who use Angular in Japan?</h1>
-</header>
+<app-header></app-header>
 
-<ul>
-  <li *ngFor="let org of organizations$ | async">
-    <div>
-      <img *ngIf="org.logoUrl" src="{{ org.logoUrl }}">
-      <div>{{ org.name }}</div>
-      <p>{{ org.description }}</p>
-    </div>
-  </li>
-</ul>
+<app-organization-list [organizations]="organizations$ | async"></app-organization-list>
