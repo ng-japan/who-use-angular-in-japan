@@ -1,6 +1,5 @@
 @import '~@angular/material/theming';
-
-$app-font-family: "'Montserrat', sans-serif";
+@import 'styles/theme';
 
 html,
 body {
@@ -8,12 +7,5 @@ body {
 }
 body {
   margin: 0;
-  font-family: $app-font-family;
   background-color: map-get($mat-light-theme-background, background);
 }
-
-$custom-typography: mat-typography-config(
-  $font-family: $app-font-family
-);
-
-@include mat-core($custom-typography);

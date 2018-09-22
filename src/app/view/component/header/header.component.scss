@@ -1,0 +1,15 @@
+@import '../../../../styles/theme';
+
+:host {
+  display: block;
+}
+
+header {
+  color: mat-contrast($app-primary, 500);
+  background: mat-color($app-primary);
+  padding: 48px 0;
+}
+
+[mat-stroked-button] {
+  border-radius: 8px;
+}
