@@ -25,6 +25,7 @@ exports[`OrganizationCardComponent matching snapshot 1`] = `
     <mat-card-subtitle>
       <a
         href="http://example.com"
+        rel="noopener"
         target="_blank"
       >
         http://example.com
@@ -50,11 +51,13 @@ exports[`OrganizationCardComponent matching snapshot 1`] = `
       >
         
         <img
+          alt="angularjs icon"
           class="angularIcon"
           src="/assets/image/angularjs.svg"
         />
         
         <img
+          alt="angular icon"
           class="angularIcon"
           src="/assets/image/angular.svg"
         />
