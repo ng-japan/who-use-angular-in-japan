@@ -1,0 +1,16 @@
+{
+  "name": "Who use Angular in Japan",
+  "short_name": "whouseangular",
+  "theme_color": "#3f51b5",
+  "background_color": "#fafafa",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "assets/icons/app-icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg"
+    }
+  ]
+}
