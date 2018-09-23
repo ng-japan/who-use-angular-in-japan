@@ -2,6 +2,7 @@
 
 https://whouse.angular.jp
 
+[![CircleCI](https://circleci.com/gh/ng-japan/who-use-angular-in-japan.svg?style=svg)](https://circleci.com/gh/ng-japan/who-use-angular-in-japan)
 
 ## Add your company!
 
