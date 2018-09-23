@@ -1,8 +1,6 @@
 import { Organization } from '../../core/model/organization';
 
-export function generateOrganization(
-  overrides: Partial<Organization> = {}
-): Organization {
+export function generateOrganization(overrides: Partial<Organization> = {}): Organization {
   return {
     name: 'Dummy Company',
     websiteUrl: 'http://example.com',
@@ -10,9 +8,9 @@ export function generateOrganization(
     ngVersions: {
       angular: true,
       angularjs: true,
-      ionic: false
+      ionic: false,
     },
     publicUrl: '',
-    ...overrides
+    ...overrides,
   };
 }

@@ -3,9 +3,8 @@ import { Injectable } from '@angular/core';
 import { map } from 'rxjs/operators';
 import { Organization } from '../model/organization';
 
-
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class OrganizationRepository {
   constructor(private httpClient: HttpClient) {}
@@ -13,9 +12,7 @@ export class OrganizationRepository {
   async getAllOrganizations(): Promise<Organization[]> {
     return await this.httpClient
       .get<{ data: Organization[] }>('/data/organizations.json')
-      .pipe(
-        map(resp => resp.data),
-      )
+      .pipe(map(resp => resp.data))
       .toPromise();
   }
 }

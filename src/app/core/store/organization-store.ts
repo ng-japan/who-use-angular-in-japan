@@ -12,7 +12,7 @@ interface State {
 export class OrganizationStore {
   private state$ = new BehaviorSubject<State>({
     allOrganizations: [],
-    fetching: false
+    fetching: false,
   });
 
   get value() {
@@ -22,7 +22,7 @@ export class OrganizationStore {
   select<T>(selector: (state: State) => T) {
     return this.state$.asObservable().pipe(
       map(selector),
-      distinctUntilChanged()
+      distinctUntilChanged(),
     );
   }
 
@@ -30,7 +30,7 @@ export class OrganizationStore {
     const state = this.state$.value;
     this.state$.next({
       ...state,
-      ...patch
+      ...patch,
     });
   }
 }

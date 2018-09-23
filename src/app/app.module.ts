@@ -20,16 +20,10 @@ import { ToHtmlPipe } from './view/pipe/to-html.pipe';
     OrganizationListComponent,
     FooterComponent,
     ToHtmlPipe,
-    SafeHtmlPipe
+    SafeHtmlPipe,
   ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    FlexLayoutModule,
-    MaterialModule,
-    HttpClientModule
-  ],
+  imports: [BrowserModule, BrowserAnimationsModule, FlexLayoutModule, MaterialModule, HttpClientModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule {}

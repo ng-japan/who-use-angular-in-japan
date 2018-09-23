@@ -6,20 +6,14 @@ import { OrganizationCardComponent } from '../organization-card/organization-car
 import { SafeHtmlPipe } from './../../pipe/safe-html.pipe';
 import { OrganizationListComponent } from './organization-list.component';
 
-
 describe('OrganizationListComponent', () => {
   let component: OrganizationListComponent;
   let fixture: ComponentFixture<OrganizationListComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [
-        OrganizationListComponent,
-        OrganizationCardComponent,
-        SafeHtmlPipe,
-        ToHtmlPipe
-      ],
-      schemas: [NO_ERRORS_SCHEMA]
+      declarations: [OrganizationListComponent, OrganizationCardComponent, SafeHtmlPipe, ToHtmlPipe],
+      schemas: [NO_ERRORS_SCHEMA],
     }).compileComponents();
   }));
 
@@ -28,11 +22,7 @@ describe('OrganizationListComponent', () => {
     component = fixture.componentInstance;
 
     component.fetching = false;
-    component.organizations = [
-      generateOrganization(),
-      generateOrganization(),
-      generateOrganization()
-    ];
+    component.organizations = [generateOrganization(), generateOrganization(), generateOrganization()];
 
     fixture.detectChanges();
   });

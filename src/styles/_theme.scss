@@ -3,7 +3,7 @@
 $app-font-family: "'Montserrat', sans-serif";
 
 $custom-typography: mat-typography-config(
-  $font-family: $app-font-family
+  $font-family: $app-font-family,
 );
 
 @include mat-core($custom-typography);

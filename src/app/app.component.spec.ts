@@ -13,16 +13,12 @@ describe('AppComponent', () => {
           provide: OrganizationRepository,
           useClass: class {
             async getAllOrganizations() {
-              return await [
-                generateOrganization(),
-                generateOrganization(),
-                generateOrganization()
-              ];
+              return await [generateOrganization(), generateOrganization(), generateOrganization()];
             }
-          }
-        }
+          },
+        },
       ],
-      schemas: [NO_ERRORS_SCHEMA]
+      schemas: [NO_ERRORS_SCHEMA],
     }).compileComponents();
   }));
 

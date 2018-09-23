@@ -3,13 +3,10 @@ import { OrganizationRepository } from './../core/repository/organization-reposi
 import { OrganizationStore } from './../core/store/organization-store';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class OrganizationService {
-  constructor(
-    private organizationStore: OrganizationStore,
-    private organizationRepository: OrganizationRepository
-  ) {}
+  constructor(private organizationStore: OrganizationStore, private organizationRepository: OrganizationRepository) {}
 
   get allOrganizations$() {
     return this.organizationStore.select(state => state.allOrganizations);
@@ -21,12 +18,12 @@ export class OrganizationService {
 
   async fetchAllOrganizations() {
     this.organizationStore.patchState({
-      fetching: true
+      fetching: true,
     });
     const organizations = await this.organizationRepository.getAllOrganizations();
     this.organizationStore.patchState({
       fetching: false,
-      allOrganizations: organizations
+      allOrganizations: organizations,
     });
   }
 }

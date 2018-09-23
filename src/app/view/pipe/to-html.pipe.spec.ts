@@ -13,7 +13,7 @@ describe('ToHtmlPipe', () => {
     const expected = [
       '<p>foobar</p>\n',
       '<p>with <br> break</p>\n',
-      '<p><a href="http://example.com">http://example.com</a></p>\n'
+      '<p><a href="http://example.com">http://example.com</a></p>\n',
     ];
 
     source.forEach((src, i) => {

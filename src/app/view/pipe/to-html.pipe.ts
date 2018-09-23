@@ -2,7 +2,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 import { parse } from 'marked';
 
 @Pipe({
-  name: 'toHtml'
+  name: 'toHtml',
 })
 export class ToHtmlPipe implements PipeTransform {
   transform(value: string) {

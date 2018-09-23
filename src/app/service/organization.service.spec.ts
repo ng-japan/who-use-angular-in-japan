@@ -14,15 +14,11 @@ describe('OrganizationService', () => {
           provide: OrganizationRepository,
           useClass: class {
             async getAllOrganizations() {
-              return await [
-                generateOrganization(),
-                generateOrganization(),
-                generateOrganization()
-              ];
+              return await [generateOrganization(), generateOrganization(), generateOrganization()];
             }
-          }
-        }
-      ]
+          },
+        },
+      ],
     }).compileComponents();
   }));
 
@@ -34,13 +30,13 @@ describe('OrganizationService', () => {
     inject([OrganizationStore], async (store: OrganizationStore) => {
       expect(store.value).toEqual({
         fetching: false,
-        allOrganizations: []
+        allOrganizations: [],
       });
 
       await service.fetchAllOrganizations();
 
       expect(store.value.fetching).toEqual(false);
       expect(store.value.allOrganizations.length).toEqual(3);
-    })
+    }),
   ));
 });
