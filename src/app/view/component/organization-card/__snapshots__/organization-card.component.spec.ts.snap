@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrganizationCardComponent matching snapshot 1`] = `
+<app-organization-card
+  index={[Function Number]}
+  organization={[Function Object]}
+>
+  <mat-card>
+    <mat-card-title
+      fxlayout="row"
+      fxlayoutalign="start start"
+      fxlayoutgap="8px"
+    >
+      <div
+        class="mat-caption"
+      >
+        #1
+      </div>
+      <div
+        class="mat-subtitle"
+      >
+        Dummy Company
+      </div>
+    </mat-card-title>
+    <mat-card-subtitle>
+      <a
+        href="http://example.com"
+        target="_blank"
+      >
+        http://example.com
+      </a>
+    </mat-card-subtitle>
+    <mat-card-content
+      fxlayout="column"
+      fxlayoutgap="16px"
+    >
+      <div
+        class="mat-body-1 description"
+      >
+        <p>
+          This company is dummy.
+        </p>
+        
+  
+      </div>
+      <div
+        fxlayooutalign="start center"
+        fxlayout="row"
+        fxlayoutgap="8px"
+      >
+        
+        <img
+          class="angularIcon"
+          src="/assets/image/angularjs.svg"
+        />
+        
+        <img
+          class="angularIcon"
+          src="/assets/image/angular.svg"
+        />
+        
+      </div>
+    </mat-card-content>
+    <mat-card-actions>
+      
+    </mat-card-actions>
+  </mat-card>
+</app-organization-card>
+`;

@@ -10,7 +10,7 @@ import { Organization } from '../model/organization';
 export class OrganizationRepository {
   constructor(private httpClient: HttpClient) {}
 
-  async getAllCompanies(): Promise<Organization[]> {
+  async getAllOrganizations(): Promise<Organization[]> {
     return await this.httpClient
       .get<{ data: Organization[] }>('/data/organizations.json')
       .pipe(

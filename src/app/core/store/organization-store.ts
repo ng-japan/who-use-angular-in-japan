@@ -15,6 +15,10 @@ export class OrganizationStore {
     fetching: false
   });
 
+  get value() {
+    return this.state$.value;
+  }
+
   select<T>(selector: (state: State) => T) {
     return this.state$.asObservable().pipe(
       map(selector),
