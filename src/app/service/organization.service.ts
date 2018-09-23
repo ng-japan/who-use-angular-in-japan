@@ -23,7 +23,7 @@ export class OrganizationService {
     this.organizationStore.patchState({
       fetching: true
     });
-    const organizations = await this.organizationRepository.getAllCompanies();
+    const organizations = await this.organizationRepository.getAllOrganizations();
     this.organizationStore.patchState({
       fetching: false,
       allOrganizations: organizations

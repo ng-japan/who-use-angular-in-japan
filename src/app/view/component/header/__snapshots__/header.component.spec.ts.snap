@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderComponent matching snapshot 1`] = `
+<app-header>
+  <header
+    fxlayout="column"
+    fxlayoutalign="center center"
+    fxlayoutgap="32px"
+  >
+    <div
+      class="mat-display-1"
+    >
+      Who use Angular in Japan?
+    </div>
+    <div
+      class="mat-body-1"
+    >
+       日本国内でAngular/AngularJSを利用している会社・組織をリストアップしています。
+      <br />
+       The list of companies who use Angular/AngularJS in Japan. 
+    </div>
+    <a
+      href="https://github.com/ng-japan/who-use-angular-in-japan/blob/master/ADD_ORGANIZATION.md"
+      mat-stroked-button=""
+    >
+      <div
+        fxflex="row"
+        fxlayoutalign="center center"
+        fxlayoutgap="8px"
+      >
+        <div>
+          Add your Organization
+        </div>
+        <mat-icon>
+          add
+        </mat-icon>
+      </div>
+    </a>
+  </header>
+</app-header>
+`;

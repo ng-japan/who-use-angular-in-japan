@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppComponent matching snapshot 1`] = `
+<app-root
+  fetching$={[Function Observable]}
+  organizationService={[Function OrganizationService]}
+  organizations$={[Function Observable]}
+>
+  <app-header /><app-organization-list /><app-footer />
+</app-root>
+`;

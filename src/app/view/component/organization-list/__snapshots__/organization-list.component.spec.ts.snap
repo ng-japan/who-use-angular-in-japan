@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrganizationListComponent matching snapshot 1`] = `
+<app-organization-list
+  fetching="false"
+  organizations={[Function Array]}
+>
+  <div
+    class="wrapper"
+    fxlayout="column"
+    fxlayoutalign="center center"
+  >
+    
+    
+    <div
+      class="list"
+      fxlayout="row wrap"
+      fxlayout.lt-sm="column"
+      fxlayoutalign="start stretch"
+      fxlayoutgap="16px"
+    >
+      
+      
+      <app-organization-card
+        class="listItem"
+        fxflex="100%"
+        fxflex.gt-lg="0 1 calc(25% - 16px)"
+        fxflex.gt-md="0 1 calc(33.3% - 16px)"
+        fxflex.gt-sm="0 1 calc(50% - 16px)"
+        ng-reflect-index="1"
+        ng-reflect-organization="[object Object]"
+      >
+        <mat-card>
+          <mat-card-title
+            fxlayout="row"
+            fxlayoutalign="start start"
+            fxlayoutgap="8px"
+          >
+            <div
+              class="mat-caption"
+            >
+              #1
+            </div>
+            <div
+              class="mat-subtitle"
+            >
+              Dummy Company
+            </div>
+          </mat-card-title>
+          <mat-card-subtitle>
+            <a
+              href="http://example.com"
+              target="_blank"
+            >
+              http://example.com
+            </a>
+          </mat-card-subtitle>
+          <mat-card-content
+            fxlayout="column"
+            fxlayoutgap="16px"
+          >
+            <div
+              class="mat-body-1 description"
+            >
+              <p>
+                This company is dummy.
+              </p>
+              
+  
+            </div>
+            <div
+              fxlayooutalign="start center"
+              fxlayout="row"
+              fxlayoutgap="8px"
+            >
+              
+              <img
+                class="angularIcon"
+                src="/assets/image/angularjs.svg"
+              />
+              
+              <img
+                class="angularIcon"
+                src="/assets/image/angular.svg"
+              />
+              
+            </div>
+          </mat-card-content>
+          <mat-card-actions>
+            
+          </mat-card-actions>
+        </mat-card>
+      </app-organization-card>
+      
+      <app-organization-card
+        class="listItem"
+        fxflex="100%"
+        fxflex.gt-lg="0 1 calc(25% - 16px)"
+        fxflex.gt-md="0 1 calc(33.3% - 16px)"
+        fxflex.gt-sm="0 1 calc(50% - 16px)"
+        ng-reflect-index="2"
+        ng-reflect-organization="[object Object]"
+      >
+        <mat-card>
+          <mat-card-title
+            fxlayout="row"
+            fxlayoutalign="start start"
+            fxlayoutgap="8px"
+          >
+            <div
+              class="mat-caption"
+            >
+              #2
+            </div>
+            <div
+              class="mat-subtitle"
+            >
+              Dummy Company
+            </div>
+          </mat-card-title>
+          <mat-card-subtitle>
+            <a
+              href="http://example.com"
+              target="_blank"
+            >
+              http://example.com
+            </a>
+          </mat-card-subtitle>
+          <mat-card-content
+            fxlayout="column"
+            fxlayoutgap="16px"
+          >
+            <div
+              class="mat-body-1 description"
+            >
+              <p>
+                This company is dummy.
+              </p>
+              
+  
+            </div>
+            <div
+              fxlayooutalign="start center"
+              fxlayout="row"
+              fxlayoutgap="8px"
+            >
+              
+              <img
+                class="angularIcon"
+                src="/assets/image/angularjs.svg"
+              />
+              
+              <img
+                class="angularIcon"
+                src="/assets/image/angular.svg"
+              />
+              
+            </div>
+          </mat-card-content>
+          <mat-card-actions>
+            
+          </mat-card-actions>
+        </mat-card>
+      </app-organization-card>
+      
+      <app-organization-card
+        class="listItem"
+        fxflex="100%"
+        fxflex.gt-lg="0 1 calc(25% - 16px)"
+        fxflex.gt-md="0 1 calc(33.3% - 16px)"
+        fxflex.gt-sm="0 1 calc(50% - 16px)"
+        ng-reflect-index="3"
+        ng-reflect-organization="[object Object]"
+      >
+        <mat-card>
+          <mat-card-title
+            fxlayout="row"
+            fxlayoutalign="start start"
+            fxlayoutgap="8px"
+          >
+            <div
+              class="mat-caption"
+            >
+              #3
+            </div>
+            <div
+              class="mat-subtitle"
+            >
+              Dummy Company
+            </div>
+          </mat-card-title>
+          <mat-card-subtitle>
+            <a
+              href="http://example.com"
+              target="_blank"
+            >
+              http://example.com
+            </a>
+          </mat-card-subtitle>
+          <mat-card-content
+            fxlayout="column"
+            fxlayoutgap="16px"
+          >
+            <div
+              class="mat-body-1 description"
+            >
+              <p>
+                This company is dummy.
+              </p>
+              
+  
+            </div>
+            <div
+              fxlayooutalign="start center"
+              fxlayout="row"
+              fxlayoutgap="8px"
+            >
+              
+              <img
+                class="angularIcon"
+                src="/assets/image/angularjs.svg"
+              />
+              
+              <img
+                class="angularIcon"
+                src="/assets/image/angular.svg"
+              />
+              
+            </div>
+          </mat-card-content>
+          <mat-card-actions>
+            
+          </mat-card-actions>
+        </mat-card>
+      </app-organization-card>
+    </div>
+    
+  </div>
+</app-organization-list>
+`;
