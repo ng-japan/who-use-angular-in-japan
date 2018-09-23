@@ -11,6 +11,8 @@ import { OrganizationCardComponent } from './view/component/organization-card/or
 import { OrganizationListComponent } from './view/component/organization-list/organization-list.component';
 import { SafeHtmlPipe } from './view/pipe/safe-html.pipe';
 import { ToHtmlPipe } from './view/pipe/to-html.pipe';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,16 @@ import { ToHtmlPipe } from './view/pipe/to-html.pipe';
     ToHtmlPipe,
     SafeHtmlPipe,
   ],
-  imports: [BrowserModule, BrowserAnimationsModule, FlexLayoutModule, MaterialModule, HttpClientModule],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    FlexLayoutModule,
+    MaterialModule,
+    HttpClientModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+    }),
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
