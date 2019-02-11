@@ -300,6 +300,15 @@
         "angular": true,
         "angularjs": true
       }
+    },
+    {
+      "name": "LCNEM, Inc",
+      "websiteUrl": "https://lcnem.cc/",
+      "description": "Using blockchains to optimize the cost of the world",
+      "publicUrl": "https://lcnem.cc/",
+      "ngVersions": {
+        "angular": true
+      }
     }
   ]
 }
