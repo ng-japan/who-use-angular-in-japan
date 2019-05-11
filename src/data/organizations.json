@@ -309,6 +309,16 @@
       "ngVersions": {
         "angular": true
       }
+    },
+    {
+      "name": "i-tap Corporation.",
+      "websiteUrl": "https://www.i-tap.co.jp/",
+      "description": "We make comfortable future with information and technology.",
+      "publicUrl": "https://www.aiglea.com/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": false
+      }
     }
   ]
 }
