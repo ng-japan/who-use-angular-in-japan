@@ -319,6 +319,16 @@
         "angular": true,
         "angularjs": false
       }
+    },
+    {
+      "name": "Increment P Corporation",
+      "websiteUrl": "https://www.incrementp.co.jp/",
+      "description": "A leading provider of Japan map contents and location services, supports all the business of location information.",
+      "publicUrl": "https://mapfan.com/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": true
+      }
     }
   ]
 }
