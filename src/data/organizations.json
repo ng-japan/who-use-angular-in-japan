@@ -329,6 +329,16 @@
         "angular": true,
         "angularjs": true
       }
+    },
+    {
+      "name": "Safie Inc.",
+      "websiteUrl": "https://safie.link/",
+      "description": "A leading provider of cloud-based video recording platform in Japan.",
+      "publicUrl": "",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": false
+      }
     }
   ]
 }
