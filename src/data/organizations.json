@@ -1,6 +1,16 @@
 {
   "data": [
     {
+      "name": "PoliPoli Inc.",
+      "websiteUrl": "https://www.polipoli.work/",
+      "description": "A political platform that everyone can participate in Create on the Internet.",
+      "publicUrl": "https://polipoli-web.com/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": false
+      }
+    }
+    {
       "name": "Alt&A Advisory",
       "websiteUrl": "https://ra-ai.com/",
       "description": "Improving the investment experience for everyone.",
