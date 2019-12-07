@@ -339,6 +339,16 @@
         "angular": true,
         "angularjs": false
       }
+    },
+    {
+      "name": "Deer, Inc",
+      "websiteUrl": "https://www.deer.co.jp/",
+      "description": "プログラミングブートキャンプを運営しています",
+      "publicUrl": "https://to.camp/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": false
+      }
     }
   ]
 }
