@@ -340,7 +340,17 @@
         "angularjs": false
       }
     },
-     {
+    {
+      "name": "Deer, Inc",
+      "websiteUrl": "https://www.deer.co.jp/",
+      "description": "プログラミングブートキャンプを運営しています",
+      "publicUrl": "https://to.camp/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": false
+      }
+    },
+    {
       "name": "PoliPoli Inc.",
       "websiteUrl": "https://www.polipoli.work/",
       "description": "A political platform that everyone can participate in Create on the Internet.",
