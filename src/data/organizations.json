@@ -359,6 +359,16 @@
         "angular": true,
         "angularjs": false
       }
+    },
+    {
+      "name": "Embrace Co., Ltd.",
+      "websiteUrl": "https://www.embrace.co.jp/",
+      "description": "A platform solving the communication problems of medical care and long term care.",
+      "publicUrl": "https://www.medical-care.net/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": true
+      }
     }
   ]
 }
