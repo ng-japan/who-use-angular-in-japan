@@ -9,11 +9,11 @@ export class OrganizationService {
   constructor(private organizationStore: OrganizationStore, private organizationRepository: OrganizationRepository) {}
 
   get allOrganizations$() {
-    return this.organizationStore.select(state => state.allOrganizations);
+    return this.organizationStore.select((state) => state.allOrganizations);
   }
 
   get fetching$() {
-    return this.organizationStore.select(state => state.fetching);
+    return this.organizationStore.select((state) => state.fetching);
   }
 
   async fetchAllOrganizations() {

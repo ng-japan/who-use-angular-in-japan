@@ -9,6 +9,7 @@
     ]
   },
   "files": [
+    "setup-jest.ts",
     "polyfills.ts"
   ],
   "include": [

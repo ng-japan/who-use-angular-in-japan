@@ -20,10 +20,7 @@ export class OrganizationStore {
   }
 
   select<T>(selector: (state: State) => T) {
-    return this.state$.asObservable().pipe(
-      map(selector),
-      distinctUntilChanged(),
-    );
+    return this.state$.asObservable().pipe(map(selector), distinctUntilChanged());
   }
 
   patchState(patch: Partial<State>) {
