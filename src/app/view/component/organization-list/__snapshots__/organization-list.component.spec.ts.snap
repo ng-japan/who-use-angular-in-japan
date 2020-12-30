@@ -27,8 +27,6 @@ exports[`OrganizationListComponent matching snapshot 1`] = `
         fxflex.gt-lg="0 1 calc(25% - 16px)"
         fxflex.gt-md="0 1 calc(33.3% - 16px)"
         fxflex.gt-sm="0 1 calc(50% - 16px)"
-        ng-reflect-index="1"
-        ng-reflect-organization="[object Object]"
       >
         <mat-card>
           <mat-card-title
@@ -101,8 +99,6 @@ exports[`OrganizationListComponent matching snapshot 1`] = `
         fxflex.gt-lg="0 1 calc(25% - 16px)"
         fxflex.gt-md="0 1 calc(33.3% - 16px)"
         fxflex.gt-sm="0 1 calc(50% - 16px)"
-        ng-reflect-index="2"
-        ng-reflect-organization="[object Object]"
       >
         <mat-card>
           <mat-card-title
@@ -175,8 +171,6 @@ exports[`OrganizationListComponent matching snapshot 1`] = `
         fxflex.gt-lg="0 1 calc(25% - 16px)"
         fxflex.gt-md="0 1 calc(33.3% - 16px)"
         fxflex.gt-sm="0 1 calc(50% - 16px)"
-        ng-reflect-index="3"
-        ng-reflect-organization="[object Object]"
       >
         <mat-card>
           <mat-card-title
