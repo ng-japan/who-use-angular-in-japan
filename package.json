@@ -38,7 +38,7 @@
     "@angular/language-service": "11.0.5",
     "@types/jest": "26.0.19",
     "@types/marked": "0.4.1",
-    "@types/node": "8.9.5",
+    "@types/node": "8.10.66",
     "codelyzer": "6.0.1",
     "jest": "26.6.3",
     "jest-preset-angular": "8.3.2",
