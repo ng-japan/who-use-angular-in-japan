@@ -116,5 +116,8 @@
       }
     }
   },
-  "defaultProject": "who-use-angular-in-japan"
+  "defaultProject": "who-use-angular-in-japan",
+  "cli": {
+    "packageManager": "yarn"
+  }
 }
