@@ -5,27 +5,32 @@ import { OrganizationRepository } from './core/repository/organization-repositor
 import { generateOrganization } from './testing/generator/generate-organization';
 
 describe('AppComponent', () => {
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      declarations: [AppComponent],
-      providers: [
-        {
-          provide: OrganizationRepository,
-          useClass: class {
-            async getAllOrganizations() {
-              return await [generateOrganization(), generateOrganization(), generateOrganization()];
-            }
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        declarations: [AppComponent],
+        providers: [
+          {
+            provide: OrganizationRepository,
+            useClass: class {
+              async getAllOrganizations() {
+                return await [generateOrganization(), generateOrganization(), generateOrganization()];
+              }
+            },
           },
-        },
-      ],
-      schemas: [NO_ERRORS_SCHEMA],
-    }).compileComponents();
-  }));
+        ],
+        schemas: [NO_ERRORS_SCHEMA],
+      }).compileComponents();
+    }),
+  );
 
-  test('matching snapshot', waitForAsync(() => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
+  test(
+    'matching snapshot',
+    waitForAsync(() => {
+      const fixture = TestBed.createComponent(AppComponent);
+      fixture.detectChanges();
 
-    expect(fixture).toMatchSnapshot();
-  }));
+      expect(fixture).toMatchSnapshot();
+    }),
+  );
 });

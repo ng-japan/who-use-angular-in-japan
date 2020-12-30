@@ -7,36 +7,41 @@ import { OrganizationService } from './organization.service';
 describe('OrganizationService', () => {
   let service: OrganizationService;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      providers: [
-        {
-          provide: OrganizationRepository,
-          useClass: class {
-            async getAllOrganizations() {
-              return await [generateOrganization(), generateOrganization(), generateOrganization()];
-            }
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        providers: [
+          {
+            provide: OrganizationRepository,
+            useClass: class {
+              async getAllOrganizations() {
+                return await [generateOrganization(), generateOrganization(), generateOrganization()];
+              }
+            },
           },
-        },
-      ],
-    }).compileComponents();
-  }));
+        ],
+      }).compileComponents();
+    }),
+  );
 
   beforeEach(inject([OrganizationService], (_service_: OrganizationService) => {
     service = _service_;
   }));
 
-  test('build state correctly', waitForAsync(
-    inject([OrganizationStore], async (store: OrganizationStore) => {
-      expect(store.value).toEqual({
-        fetching: false,
-        allOrganizations: [],
-      });
+  test(
+    'build state correctly',
+    waitForAsync(
+      inject([OrganizationStore], async (store: OrganizationStore) => {
+        expect(store.value).toEqual({
+          fetching: false,
+          allOrganizations: [],
+        });
 
-      await service.fetchAllOrganizations();
+        await service.fetchAllOrganizations();
 
-      expect(store.value.fetching).toEqual(false);
-      expect(store.value.allOrganizations.length).toEqual(3);
-    }),
-  ));
+        expect(store.value.fetching).toEqual(false);
+        expect(store.value.allOrganizations.length).toEqual(3);
+      }),
+    ),
+  );
 });

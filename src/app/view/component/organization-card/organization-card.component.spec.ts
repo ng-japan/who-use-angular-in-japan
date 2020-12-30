@@ -9,12 +9,14 @@ describe('OrganizationCardComponent', () => {
   let component: OrganizationCardComponent;
   let fixture: ComponentFixture<OrganizationCardComponent>;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      declarations: [OrganizationCardComponent, ToHtmlPipe, SafeHtmlPipe],
-      schemas: [NO_ERRORS_SCHEMA],
-    }).compileComponents();
-  }));
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        declarations: [OrganizationCardComponent, ToHtmlPipe, SafeHtmlPipe],
+        schemas: [NO_ERRORS_SCHEMA],
+      }).compileComponents();
+    }),
+  );
 
   beforeEach(() => {
     fixture = TestBed.createComponent(OrganizationCardComponent);

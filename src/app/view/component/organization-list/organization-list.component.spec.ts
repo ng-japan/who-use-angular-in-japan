@@ -10,12 +10,14 @@ describe('OrganizationListComponent', () => {
   let component: OrganizationListComponent;
   let fixture: ComponentFixture<OrganizationListComponent>;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      declarations: [OrganizationListComponent, OrganizationCardComponent, SafeHtmlPipe, ToHtmlPipe],
-      schemas: [NO_ERRORS_SCHEMA],
-    }).compileComponents();
-  }));
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        declarations: [OrganizationListComponent, OrganizationCardComponent, SafeHtmlPipe, ToHtmlPipe],
+        schemas: [NO_ERRORS_SCHEMA],
+      }).compileComponents();
+    }),
+  );
 
   beforeEach(() => {
     fixture = TestBed.createComponent(OrganizationListComponent);
