@@ -1,4 +1,4 @@
-import { async, inject, TestBed } from '@angular/core/testing';
+import { inject, TestBed, waitForAsync } from '@angular/core/testing';
 import { OrganizationRepository } from '../core/repository/organization-repository';
 import { generateOrganization } from '../testing/generator/generate-organization';
 import { OrganizationStore } from './../core/store/organization-store';
@@ -7,7 +7,7 @@ import { OrganizationService } from './organization.service';
 describe('OrganizationService', () => {
   let service: OrganizationService;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       providers: [
         {
@@ -26,7 +26,7 @@ describe('OrganizationService', () => {
     service = _service_;
   }));
 
-  test('build state correctly', async(
+  test('build state correctly', waitForAsync(
     inject([OrganizationStore], async (store: OrganizationStore) => {
       expect(store.value).toEqual({
         fetching: false,

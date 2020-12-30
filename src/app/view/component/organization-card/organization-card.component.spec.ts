@@ -1,5 +1,5 @@
 import { NO_ERRORS_SCHEMA } from '@angular/core';
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { generateOrganization } from '../../../testing/generator/generate-organization';
 import { SafeHtmlPipe } from '../../pipe/safe-html.pipe';
 import { ToHtmlPipe } from './../../pipe/to-html.pipe';
@@ -9,7 +9,7 @@ describe('OrganizationCardComponent', () => {
   let component: OrganizationCardComponent;
   let fixture: ComponentFixture<OrganizationCardComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [OrganizationCardComponent, ToHtmlPipe, SafeHtmlPipe],
       schemas: [NO_ERRORS_SCHEMA],
