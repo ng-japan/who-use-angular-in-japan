@@ -12,7 +12,7 @@ export class OrganizationRepository {
   async getAllOrganizations(): Promise<Organization[]> {
     return await this.httpClient
       .get<{ data: Organization[] }>('/data/organizations.json')
-      .pipe(map(resp => resp.data))
+      .pipe(map((resp) => resp.data))
       .toPromise();
   }
 }
