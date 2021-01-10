@@ -27,7 +27,7 @@
     "@angular/pwa": "0.1100.5",
     "@angular/router": "11.0.5",
     "@angular/service-worker": "11.0.5",
-    "marked": "0.7.0",
+    "marked": "0.8.2",
     "rxjs": "6.6.3",
     "zone.js": "0.10.3"
   },
@@ -37,7 +37,7 @@
     "@angular/compiler-cli": "11.0.5",
     "@angular/language-service": "11.0.5",
     "@types/jest": "26.0.20",
-    "@types/marked": "0.4.1",
+    "@types/marked": "0.7.4",
     "@types/node": "8.10.66",
     "codelyzer": "6.0.1",
     "jest": "26.6.3",
