@@ -1,0 +1,14 @@
+{
+    "hosting": {
+      "target": "app",
+      "public": "dist/who-use-angular-in-japan",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  }
+  
