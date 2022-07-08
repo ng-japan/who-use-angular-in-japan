@@ -369,6 +369,16 @@
         "angular": true,
         "angularjs": true
       }
+    },
+    {
+      "name": "Truss Inc.",
+      "websiteUrl": "https://corp.truss.co.jp/",
+      "description": "クラウド型建材選定管理サービスを軸に、建設業界のDX化を推進しています",
+      "publicUrl": "https://truss.co.jp/",
+      "ngVersions": {
+        "angular": true,
+        "angularjs": false
+      }
     }
   ]
 }
