@@ -16,7 +16,7 @@
   "dependencies": {
     "@angular/animations": "11.1.0",
     "@angular/cdk": "11.2.13",
-    "@angular/common": "11.1.0",
+    "@angular/common": "19.2.16",
     "@angular/compiler": "11.1.0",
     "@angular/core": "11.1.0",
     "@angular/flex-layout": "11.0.0-beta.33",
